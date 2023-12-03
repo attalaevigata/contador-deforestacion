@@ -1,0 +1,45 @@
+/* styles.css */
+.big-counter {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto en blanco */
+    font-family: Arial, sans-serif; /* Fuente genérica */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.counter-ticker {
+    font-size: 48px; /* Tamaño grande para el número del contador */
+    margin-bottom: 10px;
+}
+
+.counter-title {
+    font-size: 24px; /* Tamaño para el título */
+    margin-bottom: 5px;
+}
+
+.counter-subtitle {
+    font-size: 16px; /* Tamaño para el subtítulo */
+}
+
+.button {
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button.is-outlined {
+    background: transparent;
+}
+
+.button.is-small {
+    font-size: 14px;
+}
+
+.is-rounded {
+    border-radius: 20px;
+}
